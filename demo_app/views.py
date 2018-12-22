@@ -5,7 +5,7 @@ from sklearn.externals import joblib
 import numpy as np
 
 # loaded_model = joblib.load('demo_app/demo_model.pkl') #最初に読み込みを行う（参考書とかに書いていないが重要！）
-loaded_model = joblibl.oad('home/snowsuit8/snowsuit8.pythonanywhere.com/demo_app/demo_model.pkl')
+loaded_model = joblib.load('home/snowsuit8/snowsuit8.pythonanywhere.com/demo_app/demo_model.pkl')
 
 def index(request):
     return render(request, 'demo_app/index.html', {})
